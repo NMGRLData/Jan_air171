@@ -1,0 +1,142 @@
+{
+    "acquisition_software": "Pychron17.7(Exp0.2,DVC0.1)", 
+    "aliquot": 2674, 
+    "analysis_type": "blank_air", 
+    "analyst_name": "root", 
+    "comment": "", 
+    "commit": "cf05d7ccc1c112eac7a6e4f47b4a75eb01f3f62c", 
+    "conditionals": [
+        {
+            "analysis_types": null, 
+            "frequency": 5, 
+            "hash_id": -2585826603954954647, 
+            "level": 10, 
+            "location": "setupfiles/spectrometer/default_conditionals.yaml", 
+            "ntrips": 3, 
+            "start_count": 0, 
+            "teststr": "H1.bs<-5.0"
+        }
+    ], 
+    "data_reduction_software": "Pychron17.7(DVC0.1)", 
+    "detectors": {
+        "AX": {
+            "deflection": 190.0, 
+            "gain": 0
+        }, 
+        "CDD": {
+            "deflection": 50.0, 
+            "gain": 0
+        }, 
+        "H1": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "H2": {
+            "deflection": 0.0, 
+            "gain": 0
+        }, 
+        "L1": {
+            "deflection": 400.0, 
+            "gain": 0
+        }, 
+        "L2": {
+            "deflection": 825.0, 
+            "gain": 0
+        }
+    }, 
+    "environmental": {
+        "lab_humiditys": [
+            {
+                "device": "EnvironmentalMonitor", 
+                "name": "Lab Hum.", 
+                "pub_date": "2017-07-23T10:03:21", 
+                "title": "iServer Hum.", 
+                "value": 55.8
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Hum. 2", 
+                "pub_date": "2017-07-23T10:23:46", 
+                "title": "Base Station Hum.", 
+                "value": 50.7814407348633
+            }
+        ], 
+        "lab_pneumatics": [
+            {
+                "device": "AirPressure", 
+                "name": "Pressure", 
+                "pub_date": "2017-07-23T10:21:53", 
+                "title": null, 
+                "value": 88.8
+            }, 
+            {
+                "device": "AirPressure2", 
+                "name": "Pressure2", 
+                "pub_date": "2017-07-23T10:22:18", 
+                "title": null, 
+                "value": 88.18264
+            }, 
+            {
+                "device": "RPiWeather", 
+                "name": "Lab Pressure", 
+                "pub_date": "2017-07-23T08:29:53", 
+                "title": null, 
+                "value": 866.969970703125
+            }
+        ], 
+        "lab_temperatures": []
+    }, 
+    "extraction": "jan_air_x1.py", 
+    "identifier": "ba-01-J", 
+    "increment": null, 
+    "intensity_scalar": 0.0, 
+    "irradiation": "NoIrradiation", 
+    "irradiation_level": "A", 
+    "irradiation_position": 5, 
+    "isotopes": {
+        "Ar36": {
+            "detector": "CDD", 
+            "name": "Ar36"
+        }, 
+        "Ar37": {
+            "detector": "L2", 
+            "name": "Ar37"
+        }, 
+        "Ar38": {
+            "detector": "L1", 
+            "name": "Ar38"
+        }, 
+        "Ar39": {
+            "detector": "AX", 
+            "name": "Ar39"
+        }, 
+        "Ar40": {
+            "detector": "H1", 
+            "name": "Ar40"
+        }, 
+        "Ar41": {
+            "detector": "H2", 
+            "name": "Ar41"
+        }
+    }, 
+    "laboratory": "", 
+    "mass_spectrometer": "Jan", 
+    "material": "Blank", 
+    "measurement": "jan_unknown400_120.py", 
+    "post_equilibration": "jan_pump_extraction_line.py", 
+    "post_measurement": "jan_pump_ms.py", 
+    "project": "REFERENCES", 
+    "queue_conditionals_name": "", 
+    "repository_identifier": "Jan_air171", 
+    "sample": "blank_air", 
+    "source": {
+        "emission": 551.442, 
+        "trap": 198.147
+    }, 
+    "spec_sha": "ad8224ebc6dbfeb9f5997218dfa5fe690569839d", 
+    "timestamp": "2017-07-23T10:23:54.522498", 
+    "tripped_conditional": null, 
+    "username": "root", 
+    "uuid": "53430e18-efc3-489f-aa34-347023a7be6a", 
+    "whiff_result": null
+}
