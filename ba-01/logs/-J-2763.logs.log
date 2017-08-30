@@ -1,0 +1,1379 @@
+do run
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=539.8, duration=0.000213146209717
+script duration name:unknown400_120 seconds:540.0
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=4.88758087158e-05
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.50746917725e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=9.48905944824e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=8.9168548584e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=9.60826873779e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=6.29425048828e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=8.51154327393e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000103950500488
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=6.19888305664e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=7.9870223999e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=70.0, duration=9.29832458496e-05
+executed snippet estimated_duration=250.0, duration=0.0119619369507
+script duration name:sniffair_x2 seconds:250.0
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000146865844727
+executed snippet estimated_duration=4.0, duration=0.00126886367798
+Script duration 790.0
+Run total estimated duration= 791.000
+run duration: 0:13:11
+doing event level: 2
+13:46:32 -- Setting default integration. t=1.048576
+setting integration time = 1.048576
+SetIntegrationTime 1.048576 ===>> OK
+----------------- start -----------------
+**************** Experiment Type: Ar/Ar, Ar/Ar
+create new session 4957035120
+close session 4957035120
+$$$$$ Clearing conditionals
+adding conditionals 
+Add queue conditionals
+add default conditionals
+adding default conditionals from /Users/jan/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+Start automated run ba-01-J-2763
+loading script "jan_unknown400_120.py"
+loading script "jan_pump_ms.py"
+loading script "jan_sniffair_x2.py"
+loading script "jan_pump_extraction_line.py"
+%%%%%%%%%%%%%%%%%% setting automated run ba-01-J-2763
+No value "sensitivity_multiplier" in metadata
+$$$$$$$$$$$$$$$ auto_save_detector_ic=False
+============================= Pre Extraction Check =============================
+loading queue conditionals pre_run_terminations
+loading system conditionals pre_run_terminations
+loading conditionals from /Users/jan/PychronDev/setupfiles/spectrometer/default_conditionals.yaml
+13:46:33 -- ******* Pre Extraction Check *******
+Get a measurement from the spectrometer
+Pre Extraction Termination data. keys=H2,H1,AX,L1,L2,CDD, signals=-0.09745,0.02380,0.05669,0.02016,-0.03842,0.00000
+13:46:33 -- testing system defined conditionals
+Checking default pre extraction terminations n=2
+testing CDD
+evaluate ot="CDD.inactive" t="CDD", ctx="{'CDD': False}"
+GetDeflection CDD ===>> 50
+testing CDD==2000
+evaluate ot="CDD.deflection==2000" t="CDD==2000", ctx="{'CDD': 50.0}"
+13:46:33 -- ******* Pre Extraction Check Passed *******
+=================================================================================
+13:46:33 -- stopping status monitor
+stop 4935480816
+Status monitor stopped
+Status monitor finished
+13:46:34 -- starting status monitor
+start 4935480816
+StatusMonitor period=1. Frequencies(state=2, checksum=3, lock=5, owner=5)
+start extraction
+do extraction
+Analysis started at 13:46:36.080170
+Extraction Started jan_sniffair_x2.py
+13:46:36 -- ******* Extraction Started jan_sniffair_x2.py *******
+state changed from not run to extraction
+DO EXTRACTION <pychron.extraction_line.pyscript_runner.RemotePyScriptRunner object at 0x129edc950>
+testing...
+no interpolation path defined
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=8.39233398438e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000192165374756
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=9.60826873779e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000186920166016
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000104904174805
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=0.000121116638184
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=34.0, duration=0.000133037567139
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=6.89029693604e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=36.0, duration=9.01222229004e-05
+calculate duration
+testing...
+no interpolation path defined
+executed snippet estimated_duration=70.0, duration=0.000327110290527
+executed snippet estimated_duration=250.0, duration=0.0158059597015
+Jan Air Sniff Pipette x1
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=5.00679016113e-05
+Waiting for minibone access
+wait ('FelixMiniboneFlag', 0) {}
+waiting for FelixMiniboneFlag = 0
+Read FelixMiniboneFlag ===>> 0
+finished waiting
+Minibone free
+acquire ('JanMiniboneFlag',) {'clear': True}
+acquire JanMiniboneFlag
+Set JanMiniboneFlag 1 ===>> OK
+JanMiniboneFlag acquired
+set extraction state False (0.75, 'red', 1.5)
+Minibone acquired
+wait ('MinibonePumpTimeFlag', 0) {}
+waiting for MinibonePumpTimeFlag = 0
+Read MinibonePumpTimeFlag ===>> 0
+finished waiting
+executed snippet estimated_duration=0, duration=0.0231721401215
+WaitForMiniboneAccess.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=0, duration=0.000217914581299
+Prepare for Air Shot
+close () {'description': 'Jan Inlet'}
+close name=--- desc=Jan Inlet
+checking ownership. requestor=129.138.12.150
+check software interlocks R
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close R ===>> OK
+GetIndicatorState R ===>> False
+change switch state (True, True)
+update switch state R False args=() kw={} ncanvase=7
+13:46:36 -- CLOSE  VALVE-R (Jan Inlet)
+-------------------------- close None (Jan Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Jan Ion Pump'}
+open name=--- desc=Jan Ion Pump
+checking ownership. requestor=129.138.12.150
+check software interlocks O
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open O ===>> OK
+GetIndicatorState O ===>> OK
+change switch state (True, True)
+update switch state O True args=() kw={} ncanvase=7
+13:46:37 -- OPEN   VALVE-O (Jan Ion Pump)
+-------------------------- open None (Jan Ion Pump) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Minibone to Bone'}
+close name=--- desc=Minibone to Bone
+checking ownership. requestor=129.138.12.150
+check software interlocks I
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close I ===>> OK
+GetIndicatorState I ===>> False
+change switch state (True, True)
+update switch state I False args=() kw={} ncanvase=7
+13:46:38 -- CLOSE  VALVE-I (Minibone to Bone)
+-------------------------- close None (Minibone to Bone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Bone to Minibone'}
+close name=--- desc=Bone to Minibone
+checking ownership. requestor=129.138.12.150
+check software interlocks E
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close E ===>> OK
+GetIndicatorState E ===>> False
+change switch state (True, True)
+update switch state E False args=() kw={} ncanvase=7
+13:46:39 -- CLOSE  VALVE-E (Bone to Minibone)
+-------------------------- close None (Bone to Minibone) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=7
+13:46:39 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+close () {'description': 'Quad Inlet'}
+close name=--- desc=Quad Inlet
+checking ownership. requestor=129.138.12.150
+check software interlocks Q
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close Q ===>> OK
+GetIndicatorState Q ===>> False
+change switch state (True, True)
+update switch state Q False args=() kw={} ncanvase=7
+13:46:40 -- CLOSE  VALVE-Q (Quad Inlet)
+-------------------------- close None (Quad Inlet) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Microbone to Turbo'}
+open name=--- desc=Microbone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks U
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open U ===>> OK
+GetIndicatorState U ===>> OK
+change switch state (True, True)
+update switch state U True args=() kw={} ncanvase=7
+13:46:40 -- OPEN   VALVE-U (Microbone to Turbo)
+-------------------------- open None (Microbone to Turbo) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Inlet Pipette'}
+open name=--- desc=Microbone to Inlet Pipette
+checking ownership. requestor=129.138.12.150
+check software interlocks S
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open S ===>> OK
+GetIndicatorState S ===>> OK
+change switch state (True, True)
+update switch state S True args=() kw={} ncanvase=7
+13:46:41 -- OPEN   VALVE-S (Microbone to Inlet Pipette)
+-------------------------- open None (Microbone to Inlet Pipette) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Getter D-50'}
+open name=--- desc=Microbone to Getter D-50
+checking ownership. requestor=129.138.12.150
+check software interlocks K
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open K ===>> OK
+GetIndicatorState K ===>> OK
+change switch state (True, True)
+update switch state K True args=() kw={} ncanvase=7
+13:46:42 -- OPEN   VALVE-K (Microbone to Getter D-50)
+-------------------------- open None (Microbone to Getter D-50) result=[(True, True)]
+action=open, ok=True, locked=[False]
+open () {'description': 'Microbone to Getter NP-10'}
+open name=--- desc=Microbone to Getter NP-10
+checking ownership. requestor=129.138.12.150
+check software interlocks M
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel False
+Open M ===>> OK
+GetIndicatorState M ===>> OK
+change switch state (True, True)
+update switch state M True args=() kw={} ncanvase=7
+13:46:42 -- OPEN   VALVE-M (Microbone to Getter NP-10)
+-------------------------- open None (Microbone to Getter NP-10) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Microbone to CO2 Laser'}
+close name=--- desc=Microbone to CO2 Laser
+checking ownership. requestor=129.138.12.150
+check software interlocks T
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel True
+Close T ===>> OK
+GetIndicatorState T ===>> False
+change switch state (True, True)
+update switch state T False args=() kw={} ncanvase=7
+13:46:43 -- CLOSE  VALVE-T (Microbone to CO2 Laser)
+-------------------------- close None (Microbone to CO2 Laser) result=[(True, True)]
+action=close, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=7.42133283615
+PrepareForAirShot.py completed successfully
+gosub finished
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=32.0, duration=9.60826873779e-05
+Evacuate Pipette 2
+close () {'description': 'Minibone to Turbo'}
+close name=--- desc=Minibone to Turbo
+checking ownership. requestor=129.138.12.150
+check software interlocks P
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Close P ===>> OK
+GetIndicatorState P ===>> False
+change switch state (True, True)
+update switch state P False args=() kw={} ncanvase=7
+13:46:43 -- CLOSE  VALVE-P (Minibone to Turbo)
+-------------------------- close None (Minibone to Turbo) result=[(True, True)]
+action=close, ok=True, locked=[False]
+open () {'description': 'Microbone to Minibone'}
+open name=--- desc=Microbone to Minibone
+checking ownership. requestor=129.138.12.150
+check software interlocks L
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script open_channel True
+Open L ===>> OK
+set states for children of L. state=True
+handle state [('L', True)]
+update switch state L True args=() kw={'refresh': False} ncanvase=7
+refresh_canvas_needed fired
+GetIndicatorState L ===>> OK
+change switch state (True, True)
+update switch state L True args=() kw={} ncanvase=7
+13:46:44 -- OPEN   VALVE-L (Microbone to Minibone)
+-------------------------- open None (Microbone to Minibone) result=[(True, True)]
+action=open, ok=True, locked=[False]
+close () {'description': 'Inner Pipette 2'}
+close name=--- desc=Inner Pipette 2
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+-------------------------- close None (Inner Pipette 2) result=[(False, False)]
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=1 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=2 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=3 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=4 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=5 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=6 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=7 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=8 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=9 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=10 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=11 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=12 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=13 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=14 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=15 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=16 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=17 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=18 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=19 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=20 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=21 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=22 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=23 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=24 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=25 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=26 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=27 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=28 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=29 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=30 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=31 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=32 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=33 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=34 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=35 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=36 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=37 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=38 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=39 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=40 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=41 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=42 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=43 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=44 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=45 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=46 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=47 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=48 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=49 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=50 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=51 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=52 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=53 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=54 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=55 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=56 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=57 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=58 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=59 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=60 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=61 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=62 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=63 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=64 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=65 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=66 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=67 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=68 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=69 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=70 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=71 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=72 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=73 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=74 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=75 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=76 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=77 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=78 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=79 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=80 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=81 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=82 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=83 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=84 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=85 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=86 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=87 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=88 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=89 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=90 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=91 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=92 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=93 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=94 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=95 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=96 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=97 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=98 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+Retry actuation. i=99 Action="close", Name="", Description="Inner Pipette 2"
+checking ownership. requestor=129.138.12.150
+check software interlocks Z
+interlocks ['Y']
+interlocked Y
+Software Interlock. VALVE-Y is OPEN!. Will not close Z
+change switch state (False, False)
+action=close, ok=False, locked=[False]
+Failed to close valve Name="", Description="Inner Pipette 2"
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% disable
+set extraction state False (0.75, 'red', 1.5)
+disabling laser
+Disable ===>> OK
+AbortPattern ===>> OK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% disable
+set extraction state False (0.75, 'red', 1.5)
+disabling laser
+Disable ===>> OK
+AbortPattern ===>> OK
+executed snippet estimated_duration=32.0, duration=30.2870869637
+executed snippet estimated_duration=250.0, duration=37.747300148
+Post Equilibration Started jan_pump_extraction_line.py
+Post Measurement Started jan_pump_ms.py
+13:47:13 -- ******* Post Equilibration Started jan_pump_extraction_line.py *******
+13:47:13 -- ******* Post Measurement Started jan_pump_ms.py *******
+testing...
+testing...
+no interpolation path defined
+no interpolation path defined
+executed snippet estimated_duration=0, duration=3.40938568115e-05
+calculate duration
+Pumping spectrometer
+testing...
+no interpolation path defined
+open () {'name': 'O'}
+executed snippet estimated_duration=4.0, duration=0.000232934951782
+open name=O desc=---
+executed snippet estimated_duration=4.0, duration=0.00379490852356
+Pump after analysis
+doing GOSUB
+testing...
+no interpolation path defined
+executed snippet estimated_duration=4.0, duration=0.000229120254517
+checking ownership. requestor=129.138.12.150
+Pump Microbone
+check software interlocks O
+interlocks []
+close () {'description': 'Jan Inlet'}
+actuate state mode=None-script, software_lock=False
+close name=--- desc=Jan Inlet
+doing actuation None-script open_channel False
+checking ownership. requestor=129.138.12.150
+check software interlocks R
+interlocks []
+actuate state mode=None-script, software_lock=False
+doing actuation None-script close_channel False
+Open O ===>> OK
+Failed to close valve name="None", description="Inner Pipette 2"
+Close R ===>> OK
+GetIndicatorState O ===>> OK
+change switch state (True, True)
+update switch state O True args=() kw={} ncanvase=7
+13:47:14 -- OPEN   VALVE-O (Jan Ion Pump)
+-------------------------- open O () result=[(True, True)]
+GetIndicatorState R ===>> False
+change switch state (True, True)
+update switch state R False args=() kw={} ncanvase=7
+13:47:14 -- CLOSE  VALVE-R (Jan Inlet)
+-------------------------- close None (Jan Inlet) result=[(True, True)]
+action=open, ok=True, locked=[False]
+executed snippet estimated_duration=0, duration=0.678020000458
+jan_pump_ms.py completed successfully
+setting _ms_pumptime
+Post Measurement Finished
+13:47:14 -- ******* Post Measurement Finished *******
+----------------- finish -----------------
+state changed from extraction to failed
+----------------- stop -----------------
+Extraction Finished unsuccessfully
+13:47:14 -- ******* Extraction Finished unsuccessfully *******
+failed execution step Extraction Failed
+extraction did not complete successfully
+13:47:14 -- Automated run ba-01-J-2763 failed duration: 42.177 s
+----------------- finish -----------------
+----------------- stop -----------------
+finish run. runs completed=17
+write rem/ex queues
+/Users/jan/PychronDev/experiments/rem/CurrentExperiment.rem.txt
+/Users/jan/PychronDev/experiments/rem/CurrentExperiment.ex.txt
+doing event level: 3
+add run
